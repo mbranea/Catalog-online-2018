@@ -1,0 +1,49 @@
+{
+  "teacher": [
+    {
+      "id": 1,
+      "name": "Monescu",
+      "lastname": "Vlad"
+    },
+	 {
+      "id": 2,
+      "name": "Lupu",
+      "lastname": "Bogdan"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "course": "Web Engineering",
+	  "teacher": 2,
+      "year": 3,
+	  "semster": 2
+    },
+	 {
+      "id": 2,
+      "course": "Calcul numeric",
+	  "teacher": 1,
+      "year": 1,
+	  "semster": 2
+    }
+  ],
+  "students": [{
+  
+	  "id": 1,
+      "name": "Iulia",
+      "lastname": "Ilie",
+	  "year": 3,
+	  "attended_classes": {2}
+	
+  },
+  {
+  
+	  "id": 2,
+      "name": "Madalin",
+      "lastname": "Branea",
+	  "year": 3,
+	   "attended_classes": {2,1}
+	
+  }
+  ]
+}
